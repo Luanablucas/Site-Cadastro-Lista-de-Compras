@@ -1,0 +1,108 @@
+
+.striked {
+    text-decoration: line-through;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #FF69B4; 
+}
+
+h1 {
+    text-align: center;
+    color: #FF69B4; 
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #FF1493; 
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #FF69B4; 
+}
+
+form input,
+form select,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #FF69B4; 
+}
+
+form button {
+    background-color: #FF69B4; 
+    color: white; 
+    border: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #FF69B4; 
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFB6C1; 
+    color: white; 
+}
+
+tr.striked td {
+    text-decoration: line-through;
+    color: #FF69B4; 
+}
+
+#iconeProduto {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid pink;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#iconeCompras{
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid pink;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lista de Compras</h1>
+    <nav>
+        <a href="cadastro.html">Cadastrar Produto</a>
+    </nav>
+    <img src="images/lista-de-compras.png" alt="Ícone de Produto" id="iconeCompras">
+    <table id="compras">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nome</th>
+                <th>Unidade</th>
+                <th>Quantidade Necessária</th>
+                <th>Quantidade Comprada</th>
+                <th>Coletado</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <button id="enviarServidor" disabled>Enviar para o Servidor</button>
+    <script src="lista.js"></script>
+</body>
+</html>
